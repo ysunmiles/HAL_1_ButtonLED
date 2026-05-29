@@ -40,7 +40,7 @@ st-flash write build/firmware.bin 0x8000000
 - hal/           : HAL 层实现或适配代码
 - board/         : 板级配置
 - CMakeLists.txt : CMake清单
-- HAL_0_BlinkingLED.ioc ： STM32CubeMX配置文件
+- config.ioc     ：STM32CubeMX配置文件
 
 ## 许可
 本仓库采用 MIT License。
